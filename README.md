@@ -37,12 +37,17 @@ Required for text extraction from scanned PDFs and images.
 Windows:
 Download Tesseract installer and install.
 Add the Tesseract installation path to the system PATH or set it in the script:
+
 pytesseract.pytesseract.tesseract_cmd = r"C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 
+
 Linux (Debian/Ubuntu):
+
 sudo apt-get install tesseract-ocr
 
+
 MacOS (Homebrew):
+
 brew install tesseract
 
 
@@ -51,12 +56,17 @@ Required for converting PDFs to images (for OCR).
 
 Windows:
 Download Poppler for Windows.
+
 Extract it (e.g., C:\poppler-xx\bin) and add the /bin folder to your PATH.
 
+
 Linux (Debian/Ubuntu):
+
 sudo apt-get install poppler-utils
 
+
 MacOS (Homebrew):
+
 brew install poppler
 
 
