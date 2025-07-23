@@ -1,0 +1,6 @@
+streamlit==1.36.0
+pandas==2.2.2
+pdfplumber==0.11.0
+pytesseract==0.3.10
+pdf2image==1.17.0
+Pillow==10.3.0
